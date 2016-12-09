@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Auth Pattern</title>
+		<script src = "authPattern.js"></script>
+		<script>
+
+			function _init()
+			{
+				// Standard
+				authPattern(function(data)
+				{
+					alert("PATTERN SUBMITTED\n" + JSON.stringify(data));
+				});
+
+				// Advanced
+				/*authPattern(function(data)
+				{
+					alert("PATTERN SUBMITTED\n" + JSON.stringify(data));
+				}, {
+					"bkg-color":"000000",
+					"circle-border":2,
+					"circle-color":"CC0000",
+					"circle-radius":10,
+					"submit-font":"bold 24pt monospace",
+					"submit-text":"LOGIN"
+				});*/
+			}
+
+		</script>
+		<style>
+
+			body
+			{
+				background-color: #000000;
+			}
+
+			.title
+			{
+				color: #00CC00;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				font-size: 42px;
+			}
+
+		</style>
+	</head>
+	<body onLoad = "_init()">
+		<center>
+			<br>
+			<text class = "title">Auth Pattern Demo</text>
+			<br><br><br>
+			<canvas id = "authPatternCanvas" width = "300" height = "350"></canvas>
+		</center>
+	</body>
+</html>
