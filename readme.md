@@ -2,6 +2,8 @@ AuthPattern
 ===========
 Provide a selection of dots to join together by clicking to draw a pattern and submit.
 
+![Screenshot](https://raw.githubusercontent.com/CraicOverflow89/AuthPattern/blob/master/screenshot/screenshot1.png "Screenshot")
+
 #### Demo
 https://jsfiddle.net/CraicOverflow89/mp757nm6/
 
